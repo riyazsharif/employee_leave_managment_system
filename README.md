@@ -1,101 +1,201 @@
-# Employee Leave Management System
+🏢 Employee Leave Management System – Detailed Explanation (MERN Stack)
+📌 Project Overview
 
-A full-stack **Employee Leave Management System** built using the **MERN stack**.  
-This project helps organizations manage employee leave requests efficiently with role-based access for **Admin/Manager** and **Employees**.
-<img width="1919" height="1034" alt="Screenshot 2026-02-07 140553" src="https://github.com/user-attachments/assets/5fb7195b-5641-4c53-9094-c2fc03079849" />
-<img width="1919" height="1079" alt="Screenshot 2026-02-07 140608" src="https://github.com/user-attachments/assets/5c462a55-b05f-43f2-8c46-2bb98593b6f5" />
+The Employee Leave Management System is a full-stack web application developed using the MERN stack (MongoDB, Express.js, React.js, Node.js).
+The main goal of this project is to digitize and simplify the leave management process within an organization.
 
----
+This system allows:
 
-## 🚀 Features
+Employees to apply for leave and track their leave status
 
-### 👨‍💼 Employee
-- Login & Logout
-- Apply for leave
-- View leave status (Pending / Approved / Rejected)
-- View leave history
-- <img width="1909" height="926" alt="Screenshot 2026-02-06 113526" src="https://github.com/user-attachments/assets/07fb5acc-71ba-441e-9eb5-37ade326336b" />
+Admins/Managers to review, approve, or reject leave requests efficiently
 
+It replaces traditional paper-based systems with a secure, fast, and transparent digital solution.
 
-### 🧑‍💼 Admin / Manager
-- Secure admin login
-- View all employee leave requests
-- Approve or reject leave requests
-- Manage employees
-- Dashboard with leave statistics
-<img width="1919" height="914" alt="Screenshot 2026-02-06 113601" src="https://github.com/user-attachments/assets/ba3d0fb3-c735-4de6-a919-eb30261134a9" />
+🎯 Problem Statement
 
----
+In traditional leave management systems:
 
-## 🛠 Tech Stack
+Leave requests are handled manually
 
-### Frontend
-- React.js
-- Vite
-- CSS
-- Axios
+Approval takes more time
 
-### Backend
-- Node.js
-- Express.js
-- MongoDB
-- Mongoose
-- JWT Authentication
+Employees are not informed clearly about their leave status
 
----
+Managing records becomes difficult and error-prone
 
-## 📂 Project Structure
+✔ Solution Provided by This Project
 
-Employee_Leave_Management_System
-│
-├── backend
-│ ├── controllers
-│ ├── models
-│ ├── routes
-│ ├── config
-│ ├── middleware
-│ ├── package.json
-│ └── server.js
-│
-├── frontend
-│ ├── src
-│ │ ├── components
-│ │ ├── pages
-│ │ ├── App.jsx
-│ │ └── main.jsx
-│ ├── index.html
-│ ├── vite.config.js
-│ └── package.json
-│
-├── .gitignore
-└── README.md
+Online leave application system
 
+Real-time leave status updates
 
+Secure authentication system
 
+Centralized database for all records
 
----
+👥 User Roles
 
-## ⚙️ Installation & Setup
+The system is designed with role-based access control, supporting two main user roles:
 
-### 1️⃣ Clone the repository
-```bash
-git clone https://github.com/riyazsharif/employee_leave_managment_system.git
-2️⃣ Backend Setup
-cd backend
-npm install
-npm start
-Create a .env file in backend:
+👨‍💼 Employee Module
 
-PORT=5000
-MONGO_URI=your_mongodb_connection_string
-JWT_SECRET=your_secret_key
-3️⃣ Frontend Setup
-cd frontend
-npm install
-npm run dev
+After logging in, an employee can access the following features:
 
-🔐 Authentication
+🔐 1. Login & Logout
+
+Secure login using email and password
+
+Authentication handled using JWT tokens
+
+Unauthorized users cannot access protected routes
+<img width="1906" height="907" alt="Screenshot 2026-02-07 140420" src="https://github.com/user-attachments/assets/198d577e-c6ad-4b9a-9d3e-84060c96c70c" />
+<img width="1908" height="911" alt="Screenshot 2026-02-07 140432" src="https://github.com/user-attachments/assets/a83f4e5c-5270-4f8d-8a5d-b297017f1b01" />
+
+📝 2. Apply for Leave
+
+Employees can apply for leave by providing:
+
+Leave type (Casual, Sick, etc.)
+
+Start date and end date
+
+Reason for leave
+
+Once submitted, the leave request status is set to Pending.
+
+📊 3. View Leave Status
+
+Employees can track the status of their leave requests:
+
+Pending
+
+Approved
+
+Rejected
+
+Any decision made by the admin is reflected immediately on the employee dashboard.
+
+📜 4. Leave History
+
+Employees can view their previous leave records
+
+Ensures transparency and proper record keeping
+
+🧑‍💼 Admin / Manager Module
+
+Admins and managers have higher-level permissions:
+
+🔐 1. Secure Admin Login
+
+Only authorized admins can log in
+
+Role-based authorization ensures restricted access
+<img width="1919" height="914" alt="Screenshot 2026-02-06 113601" src="https://github.com/user-attachments/assets/d4e77d72-d179-4c67-9a99-6061964f8299" />
+📋 2. View All Leave Requests
+
+Admin can view all leave requests from employees
+
+Displays employee details, leave duration, reason, and status
+
+✅ ❌ 3. Approve or Reject Leave
+
+Admin can approve or reject requests with a single action
+
+Status updates are instantly visible to the employee
+
+👥 4. Manage Employees
+
+Admin can view and manage employee data
+
+Centralized employee information management
+
+<img width="1909" height="926" alt="Screenshot 2026-02-06 113526" src="https://github.com/user-attachments/assets/0722eb3a-0512-4122-a845-54895f9fcfc7" />
+
+📈 5. Dashboard & Statistics
+
+Total leave requests
+
+Approved, rejected, and pending leaves
+
+Provides quick insights for better decision-making
+
+🛠 Technology Stack Explanation
+🌐 Frontend
+
+React.js – Component-based user interface
+
+Vite – Fast development and build tool
+
+CSS – Styling and layout
+
+Axios – API communication with the backend
+
+The frontend is responsive and designed for a smooth user experience.
+
+🖥 Backend
+
+Node.js – Server-side runtime environment
+
+Express.js – RESTful API development
+
+JWT (JSON Web Token) – Secure authentication
+
+Middleware – Route protection and role verification
+
+🗄 Database
+
+MongoDB – NoSQL database for flexible data storage
+
+Mongoose – Schema-based modeling for MongoDB
+
+Stores:
+
+User details
+
+Employee information
+
+Leave requests and statuses
+
+🔐 Authentication & Security
+
+Security is a key focus of this project:
 
 JWT-based authentication
 
-Role-based access control (Admin & Employee)
+Secure password handling
+
+Protected API routes
+
+Role-based access control (Admin / Employee)
+
+Prevention of unauthorized access
+
+📂 Project Structure Explanation
+backend/
+ ├── controllers   → Business logic
+ ├── models        → Database schemas
+ ├── routes        → API endpoints
+ ├── middleware    → Authentication & authorization
+ ├── config        → Database configuration
+ └── server.js     → Server entry point
+
+frontend/
+ ├── components    → Reusable UI components
+ ├── pages         → Login, Dashboard, Leave pages
+ ├── App.jsx       → Main application component
+ └── main.jsx      → Application entry point
+
+⚙️ Installation Flow (Summary)
+
+Clone the repository
+
+Install backend dependencies
+
+Configure environment variables
+
+Start the backend server
+
+Install frontend dependencies
+
+Run the frontend application
