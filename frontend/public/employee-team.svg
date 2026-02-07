@@ -1,0 +1,88 @@
+<svg width="1200" height="700" viewBox="0 0 1200 700" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Team illustration">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fff7ed"/>
+      <stop offset="1" stop-color="#ffffff"/>
+    </linearGradient>
+    <linearGradient id="shirtBlue" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#667eea"/>
+      <stop offset="1" stop-color="#4facfe"/>
+    </linearGradient>
+    <linearGradient id="shirtPurple" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#764ba2"/>
+      <stop offset="1" stop-color="#f093fb"/>
+    </linearGradient>
+    <linearGradient id="shirtOrange" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fb923c"/>
+      <stop offset="1" stop-color="#f97316"/>
+    </linearGradient>
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#111827" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+
+  <!-- Background blob -->
+  <path d="M170,440 C120,280 190,180 380,140 C560,100 650,160 760,120 C890,75 1020,120 1090,240 C1160,360 1080,520 920,560 C760,600 680,560 540,600 C370,640 220,600 170,440 Z"
+        fill="url(#bg)"/>
+
+  <!-- Shelf + books -->
+  <rect x="430" y="190" width="190" height="10" rx="5" fill="#111827" opacity="0.08"/>
+  <rect x="455" y="135" width="46" height="50" rx="10" fill="#f97316"/>
+  <path d="M472 110 C460 118 458 128 463 135 C468 142 480 141 486 133 C492 125 488 112 472 110Z" fill="#22c55e"/>
+  <rect x="512" y="120" width="18" height="65" rx="6" fill="#94a3b8"/>
+  <rect x="534" y="125" width="24" height="60" rx="8" fill="#60a5fa"/>
+  <rect x="562" y="125" width="24" height="60" rx="8" fill="#f59e0b"/>
+
+  <!-- Clock -->
+  <circle cx="915" cy="155" r="62" fill="#ffffff" filter="url(#soft)"/>
+  <circle cx="915" cy="155" r="62" fill="none" stroke="#fbbf24" stroke-width="10" opacity="0.6"/>
+  <circle cx="915" cy="155" r="6" fill="#f59e0b"/>
+  <path d="M915 155 L915 120" stroke="#f59e0b" stroke-width="8" stroke-linecap="round"/>
+  <path d="M915 155 L952 142" stroke="#f59e0b" stroke-width="8" stroke-linecap="round"/>
+
+  <!-- Desk line -->
+  <rect x="120" y="590" width="980" height="6" rx="3" fill="#111827" opacity="0.15"/>
+
+  <!-- People group (simple, professional) -->
+  <!-- Person left -->
+  <circle cx="210" cy="365" r="30" fill="#fdba74"/>
+  <rect x="175" y="395" width="70" height="140" rx="22" fill="#c7d2fe"/>
+  <path d="M135 390 C155 360 175 350 195 350" stroke="#c7d2fe" stroke-width="26" stroke-linecap="round"/>
+  <path d="M120 345 C140 320 160 310 185 312" stroke="#c7d2fe" stroke-width="20" stroke-linecap="round"/>
+  <path d="M120 345 L105 320" stroke="#fb923c" stroke-width="10" stroke-linecap="round"/>
+
+  <!-- Person 2 (woman) -->
+  <circle cx="350" cy="365" r="30" fill="#fdba74"/>
+  <path d="M318 352 C330 320 372 320 384 352 C390 375 380 405 350 410 C320 405 310 375 318 352Z" fill="#111827" opacity="0.7"/>
+  <rect x="315" y="395" width="70" height="150" rx="22" fill="url(#shirtPurple)"/>
+  <path d="M310 430 C300 410 295 390 300 370" stroke="#111827" stroke-width="26" stroke-linecap="round" opacity="0.5"/>
+  <path d="M300 370 L290 335" stroke="#111827" stroke-width="18" stroke-linecap="round" opacity="0.55"/>
+
+  <!-- Person center (suit) -->
+  <circle cx="530" cy="340" r="34" fill="#fdba74"/>
+  <path d="M500 332 C510 305 550 305 560 332 C564 350 556 372 530 376 C504 372 496 350 500 332Z" fill="#111827" opacity="0.75"/>
+  <rect x="470" y="375" width="120" height="175" rx="28" fill="url(#shirtBlue)"/>
+  <path d="M470 410 L530 470 L590 410" fill="#0f172a" opacity="0.3"/>
+  <path d="M510 375 L530 420 L550 375" fill="#ffffff" opacity="0.95"/>
+
+  <!-- Person right (hand up) -->
+  <circle cx="705" cy="360" r="30" fill="#fdba74"/>
+  <path d="M676 350 C686 322 724 322 734 350 C738 370 728 395 705 398 C682 395 672 370 676 350Z" fill="#111827" opacity="0.72"/>
+  <rect x="670" y="390" width="70" height="160" rx="22" fill="#ddd6fe"/>
+  <path d="M745 390 C765 360 790 350 810 352" stroke="#ddd6fe" stroke-width="26" stroke-linecap="round"/>
+  <path d="M820 352 L840 320" stroke="#fb923c" stroke-width="10" stroke-linecap="round"/>
+
+  <!-- Person (blue jacket) -->
+  <circle cx="860" cy="360" r="30" fill="#fdba74"/>
+  <path d="M832 350 C842 322 880 322 890 350 C894 370 884 395 860 398 C836 395 826 370 832 350Z" fill="#111827" opacity="0.72"/>
+  <rect x="815" y="390" width="90" height="165" rx="26" fill="url(#shirtBlue)"/>
+  <path d="M905 430 C915 410 920 390 915 370" stroke="#111827" stroke-width="26" stroke-linecap="round" opacity="0.35"/>
+  <path d="M915 370 L930 330" stroke="#111827" stroke-width="18" stroke-linecap="round" opacity="0.4"/>
+
+  <!-- Person far right -->
+  <circle cx="1010" cy="360" r="30" fill="#fdba74"/>
+  <rect x="970" y="390" width="85" height="165" rx="26" fill="#111827" opacity="0.75"/>
+  <path d="M1050 410 C1075 385 1090 370 1110 372" stroke="#111827" stroke-width="26" stroke-linecap="round" opacity="0.75"/>
+  <path d="M1110 372 L1130 340" stroke="#fb923c" stroke-width="10" stroke-linecap="round"/>
+</svg>
+
