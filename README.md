@@ -91,7 +91,8 @@ Admins and managers have higher-level permissions:
 Only authorized admins can log in
 
 Role-based authorization ensures restricted access
-<img width="1919" height="914" alt="Screenshot 2026-02-06 113601" src="https://github.com/user-attachments/assets/d4e77d72-d179-4c67-9a99-6061964f8299" />
+<img width="1909" height="926" alt="Screenshot 2026-02-06 113526" src="https://github.com/user-attachments/assets/0722eb3a-0512-4122-a845-54895f9fcfc7" />
+
 📋 2. View All Leave Requests
 
 Admin can view all leave requests from employees
@@ -109,8 +110,7 @@ Status updates are instantly visible to the employee
 Admin can view and manage employee data
 
 Centralized employee information management
-
-<img width="1909" height="926" alt="Screenshot 2026-02-06 113526" src="https://github.com/user-attachments/assets/0722eb3a-0512-4122-a845-54895f9fcfc7" />
+<img width="1919" height="914" alt="Screenshot 2026-02-06 113601" src="https://github.com/user-attachments/assets/d4e77d72-d179-4c67-9a99-6061964f8299" />
 
 📈 5. Dashboard & Statistics
 
