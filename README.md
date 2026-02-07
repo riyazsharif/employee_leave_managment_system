@@ -13,9 +13,9 @@ This project helps organizations manage employee leave requests efficiently with
 - Login & Logout
 - Apply for leave
 - View leave status (Pending / Approved / Rejected)
-- View leave histor
+- View leave history
 - <img width="1909" height="926" alt="Screenshot 2026-02-06 113526" src="https://github.com/user-attachments/assets/07fb5acc-71ba-441e-9eb5-37ade326336b" />
-y
+
 
 ### 🧑‍💼 Admin / Manager
 - Secure admin login
